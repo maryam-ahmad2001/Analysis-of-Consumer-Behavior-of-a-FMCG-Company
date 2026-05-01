@@ -1,6 +1,7 @@
 # Analysis-of-Consumer-Behavior-of-a-FMCG-Company
 
 ***Overview***
+
 This project was completed as part of an internship at Sankhya Analytics, a real-world analytical research firm led by Mr. Vinayak Deshpande, alongside partners Gargi Rajadnya and Vedant Limaye under the guidance of our marketing professor Aditya Nagaraja. The study analysed real-time B2B data from 2018 and 2019 for an FMCG company that distributes its products through multiple Channel Partners. The goal was to understand consumer behavior, evaluate the effectiveness of a new product launch, and develop a data-driven communication strategy for future marketing campaigns.
 
 ***Objectives***
@@ -65,15 +66,18 @@ Channel Partners with loyalty membership and higher rewards redemption rates wer
 The analysis confirmed that Call, SMS, and Email (all coded as 1 — active use) were the most effective communication channels. A standardised, multi-channel communication framework was recommended for future campaigns.
 
 **COVID-19 Strategic Addendum**
+
 Since the dataset predated COVID-19, the team was also asked to develop strategies suited to the pandemic context. The core recommendation was a dual approach: direct-to-consumer (D2C) engagement to reduce dependence on Channel Partners, combined with efforts to strengthen existing Channel Partner relationships. Specific tactics recommended included:
 SEO/SEM — search engine optimisation and marketing to drive organic and paid discovery
 Website development — building a D2C channel to connect directly with end consumers
 Social Media Marketing (SMM) — leveraging Facebook, Instagram, Twitter, YouTube, and LinkedIn
 
 **Case Study — Country Bean**
+
 Country Bean, India's first flavoured coffee brand (founded 2017), was used as a benchmarking case study. The brand's D2C model, Instagram presence of nearly one million followers, and use of recipe content, reels, and memes for brand engagement were highlighted as a replicable digital-first strategy for the FMCG client.
 
 ***Tools & Technologies***
+
 IBM SPSS — logistic regression, visualisation, descriptive statistics
 R - primary language for data cleaning, feature engineering, regression, modelling, corpus analysis and text mining
 Microsoft Excel — data management and master file compilation
