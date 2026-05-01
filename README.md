@@ -12,6 +12,7 @@ The project addressed three concrete business questions:
 3. Develop a scientifically grounded communication strategy for future campaigns based on what modes of outreach were most effective
 
 ***Dataset & Variables***
+
 The dataset was sourced directly from the FMCG company via Sankhya Analytics and spanned 2018–2019. Key variables included:
 Communication channels — SMS, Call, Email, Portal
 Loyalty and Rewards membership indicators
@@ -27,12 +28,15 @@ Region
 The project followed a four-stage analytical pipeline:
 
 **Stage 1 — Data Management**
+
 Multiple raw data files were compiled into a single master file. Basic data checks (dimension and structure validation) were applied, irrelevant columns were dropped, derived variables were engineered (including Sales 2019 and NPS as composite variables), and all files were merged into a clean analytical dataset.
 
 **Stage 2 — Descriptive Statistics & Data Visualisation**
+
 IBM SPSS was used to produce visualisations of response rates by communication factor, complaint distributions, NPS distributions, years of partnership, and sales trends. A correlation heatmap revealed high multicollinearity involving the SMS variable, which was subsequently removed from the predictive modelling stage.
 
 **Stage 3 — Predictive Modelling**
+
 Logistic regression was applied with Channel Partner response (Yes/No) as the binary dependent variable. The model identified the following statistically significant predictors of a positive response:
 Email — significant positive effect
 Call — significant positive effect
@@ -43,14 +47,21 @@ NPS (derived variable) — significant
 Variance Inflation Factor (VIF) checks confirmed all variables fell below 5, indicating no multicollinearity in the final model.
 
 **Stage 4 — Text Mining**
+
 Customer review text was analysed using a structured text mining pipeline: raw text was imported and converted into a corpus, cleaned, inspected for frequency terms, and visualised as a word cloud and bar chart. Associated word matrices were also generated. The word cloud revealed that the most frequently used terms in end-consumer reviews were coffee, taste, flavor, like, and good — indicating predominantly positive sentiment toward the product.
 
 **Key Findings & Conclusions**
+
 **Conclusion 1 — New Product Launch Response**
+
 A list of Channel Partners that responded positively to the new product launch was identified. These partners represent the primary targets for the company's next planned campaign.
+
 **Conclusion 2 — Consumer Behavior Drivers**
+
 Channel Partners with loyalty membership and higher rewards redemption rates were significantly more likely to respond positively to new product launches. Recommendations were made to strengthen Channel Partner relationships through flexible payment terms (part payment, extra credit, balance arrangements). For end consumers, product flavor was the dominant driver of engagement — with recipe-based content identified as a high-engagement format.
+
 **Conclusion 3 — Scientific Communication Strategy**
+
 The analysis confirmed that Call, SMS, and Email (all coded as 1 — active use) were the most effective communication channels. A standardised, multi-channel communication framework was recommended for future campaigns.
 
 **COVID-19 Strategic Addendum**
